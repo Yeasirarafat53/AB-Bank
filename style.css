@@ -1,0 +1,143 @@
+
+/*-------------------- navbar and login page---------------------- */
+
+
+
+body{
+    background-image: url(image.jpg);
+    padding-top: 5px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* .navbar{
+    margin-bottom: 00px;
+} */
+.navbar img{
+    width: 100px;
+    padding-left: 20px;
+    
+}
+/* .search{
+    margin-left: auto;
+} */
+
+
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+  
+   
+}
+#size{
+    height: 30px;
+    width: 100%;
+}
+
+#shadow{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    width: 50%;
+    margin: auto;
+    padding-top: 5px;
+ 
+}
+
+#wel{
+    color: rgb(219, 34, 34);
+}
+#ab-bank{
+    color: rgb(2, 146, 2);
+}
+
+.submit-area{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+#login-area{
+    margin-top: 15px;
+
+}
+
+/*----------------------- navbar and login page  end---------------------------- */
+
+
+/*------------------------ Money transaction box--------------------------------- */
+
+#transaction-area{
+    display: none;
+    padding-top: 80px;
+    
+}
+#headingText{
+    padding-left: 34%;
+  
+}
+#bg-line{
+    height: 8px;
+    width: 320px;
+    display: block;
+    margin-left: 490px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(380deg, #7762f1, #19ff79);
+    border-radius: 5px;
+}
+.row{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.status{
+    margin: 10px 20px;
+    padding:25px 20px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    width: 300px;
+    
+}
+.deposit{
+    background-color: slateblue;
+    margin-left: 80px;
+}
+
+.withdraw{
+    background-color: lightsalmon;
+    margin-left: 50px;
+}
+
+.balance{
+    background-color: orange;
+    margin-right: 80px;
+}
+
+/*------------------------------ money transaction box end----------------------------- */
+
+/*--------------------------- Deposite and Widthdraw part ------------------------------*/
+.amount{
+    width: 500px;
+    margin-top: 50px;
+   
+    padding:40px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px gray;
+    
+}
+.moneyAdd{
+    margin-left: 150px;
+    
+}
+.moneyWithdraw{
+    margin-left: 10px;
+}
+
+
+.footer-end{
+    padding-left: 45%;
+    padding-top: 50px;
+}
