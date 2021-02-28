@@ -7,9 +7,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Teko&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
-    
-    
     <title>AB Bank</title>
 </head>
 <body>
@@ -29,8 +28,10 @@
           </nav>
     </div>
     
-        <div>
-           <h1 id="shadow" class="text-center"><span id="wel">Welcome To</span> <span id="ab-bank">AB Bank</span> </h1> 
+    
+           <h1 id="shadow" class="text-center"><span id="wel">Welcome To</span> <span id="ab-bank">AB Bank</span> </h1>
+           
+
            <div class="submit-area">
                <h4>Login</h4>
                <input type="text" class="form-control" placeholder="Email" name="" id="size">
@@ -41,7 +42,7 @@
 
            </div>
 
-        </div>
+        
     
 </div>
     
@@ -50,14 +51,14 @@
 
 <!-------------------- Transaction Area-------------------- -->
 
-<div id="transaction-area">
-    
-        <h2 id="headingText">Online Money Transaction</h2>
-        <div id="bg-line"></div>
 
-    
+<section id="transaction-area">  
 
-    <div class="row">
+    <h2 id="headingText">Online Money Transaction</h2>
+    <div id="bg-line"></div>
+ 
+
+    <div class="row transaction-fluid">
         <div class="col-md-4">
             <div class="deposit status">
                 <h5>Deposit</h5>
@@ -77,43 +78,40 @@
                 <h5>Balance</h5>
                 <h2>$ <span id="currentBalance">1300</span></h2>
             </div>
-
         </div>
-    </div>
-    <br>
-    <br>
+  </div>
+    
+        <br>
+        <br>
 
-    <div class="row">
-        <div class="colum-md-6 ">
-            <div class="amount moneyAdd">
+
+    <div class="row transaction-fluid">
+            <div class="col-md-6">
+              <div class="submit">
                 <h4>Deposit</h4>
-                <input id="depositAmount" type="text" name="" class="form-control"  placeholder="Amount you want to deposit" >
+                <input id="depositAmount" type="text" class="form-control" placeholder="Amount you want to deposit">
                 <br>
-                <button id="addDeposit"  class="btn btn-success">Deposit</button>
+                <button id="addDeposit" class="btn btn-success">Deposit</button>
+              </div>
             </div>
-
-        </div>
-        
-
-        <div class="colum-md-6">
-            <div class="amount moneyWithdraw">
+            <div class="col-md-6">
+              <div class="submit">
                 <h4>Withdraw</h4>
-                <input id="withdrawAmount" type="text" name="" class="form-control"  placeholder="Amount you want to withdraw">
+                <input id="withdrawAmount" type="text" class="form-control" placeholder="Amount you want to withdraw">
                 <br>
                 <button id="addWithdraw" class="btn btn-success">Withdraw</button>
+              </div>
             </div>
-
-        </div>
     </div>
-
+    
+    <!---------------------- footer-area -------------------->
 
     <footer class="footer-end">
         <small > Copyright © 2021 Yeasir Arafat</small>
     </footer>
 
 
-</div>
-
+</section>
 
 
 
